@@ -1,6 +1,6 @@
 # CRPT Training Solutions: Website
 
-Marketing website for a company that creates **animated, interactive training materials** that help businesses onboard new employees and upskill current ones.
+Marketing website for a company that creates **interactive training materials** that help businesses onboard new employees and upskill current ones.
 
 It's a fast, dependency-free static site (plain HTML, CSS, and JavaScript), so there is no build step.
 
