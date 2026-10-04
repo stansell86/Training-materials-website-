@@ -2,6 +2,7 @@
    Brand tokens: change these to restyle the whole site
    ========================================================== */
 :root {
+  color-scheme: light;
   --brand: #3d7584;        /* soft teal: buttons, links */
   --brand-dark: #33626f;
   --on-brand: #ffffff;     /* text on brand-colored buttons */
@@ -19,23 +20,6 @@
   --radius: 18px;
   --shadow: 0 8px 24px rgba(39, 54, 59, 0.06);
   --max: 1140px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --brand: #8ec3cf;
-    --brand-dark: #a8d3dc;
-    --on-brand: #10262c;
-    --accent-ink: #9fd1bc;
-    --danger-ink: #eaa59d;
-    --ink: #e3ece9;
-    --muted: #a2b3b0;
-    --bg: #141c1f;
-    --bg-alt: #192326;
-    --surface: #1f2b2f;
-    --border: #2c3b3f;
-    --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-  }
 }
 
 /* ==========================================================

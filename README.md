@@ -15,7 +15,7 @@ It's a fast, dependency-free static site (plain HTML, CSS, and JavaScript), so t
 | **Industries** | The industries you serve |
 | **Contact** | Lead-capture form (validation included; connect a form service to receive messages) |
 
-It's responsive (phone → desktop), supports dark mode, honors "reduce motion" settings, and is keyboard/screen-reader friendly.
+It's responsive (phone → desktop), always uses the light theme, honors "reduce motion" settings, and is keyboard/screen-reader friendly.
 
 ## Project structure
 
