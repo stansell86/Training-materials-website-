@@ -1,4 +1,4 @@
-# Training Materials Website
+# CRPT Training Solutions: Website
 
 Marketing website for a company that creates **animated, interactive training materials** that help businesses onboard new employees and upskill current ones.
 
@@ -38,7 +38,7 @@ python3 -m http.server 8000
 
 ## Make it yours: checklist
 
-- [ ] Replace **YourBrand** with your company name (`index.html`: title, logo, footer)
+- [x] Company name set to **CRPT Training Solutions**
 - [ ] Replace `hello@yourbrand.com` with your real email
 - [ ] Update brand colors in `css/styles.css` (`--brand`, `--accent`, …)
 - [ ] Replace `assets/favicon.svg` with your logo

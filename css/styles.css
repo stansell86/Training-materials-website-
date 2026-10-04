@@ -95,6 +95,8 @@ p { margin: 0 0 1em; color: var(--muted); }
 }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 70px; }
 .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.25rem; color: var(--ink); text-decoration: none; }
+.logo span { line-height: 1.15; }
+@media (max-width: 400px) { .logo { font-size: 1.05rem; } }
 .nav-menu { display: flex; align-items: center; gap: 28px; }
 .nav-menu a:not(.btn) { color: var(--ink); text-decoration: none; font-weight: 500; }
 .nav-menu a:not(.btn):hover { color: var(--brand); }
