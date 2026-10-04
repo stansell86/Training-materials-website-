@@ -9,7 +9,7 @@ It's a fast, dependency-free static site (plain HTML, CSS, and JavaScript), so t
 | Section | Description |
 | --- | --- |
 | **Hero** | Headline, calls to action, animated stat counters, and an animated SVG "lesson" illustration |
-| **Services** | Explainer animations, interactive scenarios, onboarding, upskilling, quizzes, LMS-ready (SCORM/xAPI) delivery |
+| **Services** | Animated videos, interactive scenarios, onboarding, upskilling, quizzes, LMS-ready (SCORM/xAPI) delivery |
 | **Try a demo** | A working 3-question interactive sample lesson with instant feedback and a progress bar |
 | **How it works** | 4-step process: Discover → Design → Build → Launch |
 | **Industries** | The industries you serve |
