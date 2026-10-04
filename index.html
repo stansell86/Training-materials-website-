@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YourBrand | Animated, Interactive Employee Training</title>
+  <meta name="description" content="We design animated, interactive training that helps companies onboard new hires faster and keep current employees sharp.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="logo" aria-label="YourBrand home">
+        <img src="assets/favicon.svg" alt="" width="32" height="32">
+        <span>YourBrand</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu">
+        <a href="#services">Services</a>
+        <a href="#demo">Try a demo</a>
+        <a href="#process">How it works</a>
+        <a href="#industries">Industries</a>
+        <a href="#contact" class="btn btn-small">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Animated · Interactive · Effective</p>
+          <h1>Training your team will <span class="highlight">actually remember</span>.</h1>
+          <p class="lead">We turn dense manuals, policies, and processes into animated, interactive learning experiences that get new hires productive faster and keep current employees sharp.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Book a free consultation</a>
+            <a href="#demo" class="btn btn-ghost">Try a sample lesson →</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong data-count="60">0</strong><span>% faster onboarding*</span></li>
+            <li><strong data-count="3">0</strong><span>x better recall*</span></li>
+            <li><strong data-count="100">0</strong><span>% mobile friendly</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-art reveal" aria-hidden="true">
+          <svg viewBox="0 0 400 320" class="hero-svg">
+            <rect x="20" y="20" width="360" height="240" rx="18" class="screen"/>
+            <rect x="20" y="20" width="360" height="34" rx="18" class="screen-bar"/>
+            <circle cx="44" cy="37" r="5" class="dot d1"/>
+            <circle cx="62" cy="37" r="5" class="dot d2"/>
+            <circle cx="80" cy="37" r="5" class="dot d3"/>
+            <!-- progress bar -->
+            <rect x="50" y="220" width="300" height="10" rx="5" class="track"/>
+            <rect x="50" y="220" width="300" height="10" rx="5" class="progress"/>
+            <!-- animated character -->
+            <g class="character">
+              <circle cx="120" cy="120" r="26" class="head"/>
+              <rect x="96" y="148" width="48" height="56" rx="16" class="body"/>
+              <circle cx="112" cy="116" r="3.5" class="eye"/>
+              <circle cx="128" cy="116" r="3.5" class="eye"/>
+              <path d="M110 130 Q120 138 130 130" class="smile"/>
+            </g>
+            <!-- speech bubble -->
+            <g class="bubble">
+              <rect x="170" y="80" width="170" height="70" rx="14"/>
+              <path d="M172 125 L156 138 L182 132 Z"/>
+              <rect x="186" y="98" width="120" height="9" rx="4.5" class="line"/>
+              <rect x="186" y="116" width="90" height="9" rx="4.5" class="line"/>
+            </g>
+            <!-- check badge -->
+            <g class="badge">
+              <circle cx="320" cy="190" r="20"/>
+              <path d="M310 190 L317 197 L331 183" class="check"/>
+            </g>
+            <circle cx="360" cy="290" r="10" class="float f1"/>
+            <circle cx="40" cy="295" r="7" class="float f2"/>
+          </svg>
+        </div>
+      </div>
+      <p class="container footnote">*Placeholder figures. Replace with your own results once you have client data.</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What we build</p>
+          <h2>Training that moves, clicks, and sticks</h2>
+          <p>Every module is designed around how adults actually learn: short, visual, hands-on, and built for the devices your team already uses.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">🎬</div>
+            <h3>Animated explainer modules</h3>
+            <p>Short animated videos that turn complex processes, safety procedures, and policies into clear, memorable stories.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🧩</div>
+            <h3>Interactive scenarios</h3>
+            <p>Branching, choose-your-path simulations where employees practice real decisions in a safe environment.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🚀</div>
+            <h3>New-hire onboarding</h3>
+            <p>A guided, self-paced onboarding journey that introduces your culture, tools, and expectations from day one.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🔁</div>
+            <h3>Ongoing upskilling</h3>
+            <p>Bite-sized refreshers, compliance updates, and micro-lessons that keep current employees sharp all year.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">✅</div>
+            <h3>Quizzes &amp; knowledge checks</h3>
+            <p>Gamified assessments that reinforce learning and show you exactly where your team needs support.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">📦</div>
+            <h3>LMS-ready delivery</h3>
+            <p>Packaged for SCORM / xAPI so modules drop straight into your existing learning management system.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive demo -->
+    <section id="demo" class="section section-alt">
+      <div class="container demo-grid">
+        <div class="reveal">
+          <p class="eyebrow">See it in action</p>
+          <h2>Try a 30-second sample lesson</h2>
+          <p>This is a tiny taste of the interactive scenarios we build. Make a choice and see instant feedback, just like your employees would.</p>
+          <ul class="checklist">
+            <li>Instant, friendly feedback</li>
+            <li>Progress tracking</li>
+            <li>Works on phone, tablet, and desktop</li>
+          </ul>
+        </div>
+
+        <div class="demo-card reveal" id="quiz" aria-live="polite">
+          <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-bar"></div></div>
+          <p class="quiz-step" id="quiz-step"></p>
+          <h3 class="quiz-question" id="quiz-question"></h3>
+          <div class="quiz-options" id="quiz-options"></div>
+          <p class="quiz-feedback" id="quiz-feedback"></p>
+          <button class="btn quiz-next" id="quiz-next" hidden>Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>From your materials to a finished course</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">1</span>
+            <h3>Discover</h3>
+            <p>We learn your goals, your audience, and the content you already have: manuals, slides, SOPs, or just tribal knowledge.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">2</span>
+            <h3>Design</h3>
+            <p>We write the script, storyboard the animation, and map out every interaction for your review.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">3</span>
+            <h3>Build</h3>
+            <p>Our team animates, develops, and tests the module across devices and your LMS.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">4</span>
+            <h3>Launch &amp; improve</h3>
+            <p>We help you roll it out, then use learner data to refine and expand your training library.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section id="industries" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Who we help</p>
+          <h2>Built for teams of every kind</h2>
+        </div>
+        <div class="pills reveal">
+          <span>Healthcare</span><span>Manufacturing</span><span>Retail</span><span>Hospitality</span>
+          <span>Logistics</span><span>Finance</span><span>Technology</span><span>Construction</span>
+          <span>Customer Service</span><span>Nonprofits</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Let's talk</p>
+          <h2>Ready to make training something your team looks forward to?</h2>
+          <p>Tell us a little about your team and what you need to train. We'll get back to you within one business day with ideas and a free estimate.</p>
+          <p class="contact-direct">Prefer email? <a href="mailto:hello@yourbrand.com">hello@yourbrand.com</a></p>
+        </div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Work email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="size">Team size</label>
+            <select id="size" name="size">
+              <option>1–25</option>
+              <option>26–100</option>
+              <option>101–500</option>
+              <option>500+</option>
+            </select>
+          </div>
+          <div class="field field-full">
+            <label for="message">What would you like to train?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn field-full">Send message</button>
+          <p class="form-status field-full" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <a href="#" class="logo">
+        <img src="assets/favicon.svg" alt="" width="28" height="28">
+        <span>YourBrand</span>
+      </a>
+      <p>Animated, interactive training for modern teams.</p>
+      <p>&copy; <span id="year"></span> YourBrand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
